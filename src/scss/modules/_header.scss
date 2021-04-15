@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+    background-color: rgb(54,59,71);
+        .ecartvide{
+            height: 30px;
+            width: 100%;
+        }
+        .div1{
+            display: flex;
+            .div2{
+                display: flex;
+                width: 40%;
+                justify-content: center;
+                align-items: flex-start;
+                height: 90px;
+                a{
+                    text-decoration: none;
+                }
+                p{
+                    color: white;
+                    font-size: 35px;
+                    margin:0;
+                    padding-top: 9px;
+                }
+            }
+            .div3{
+                display: flex;
+                align-items:center;
+                width: 40%;
+                div{
+                    width: 14.28%;
+                    height: 100%;
+                    display: flex;
+                    justify-content:center;
+                    align-items: center;
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                    }
+                    p{
+                        color:white;
+                        width: 14.28%;
+                    }
+                    
+                }
+                .hov:hover{
+                    background-color: rgb(19, 94, 163);
+                }
+            }
+        }
+
+}

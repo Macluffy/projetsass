@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(19, 136, 214) ;
+    height: 350px;
+    p{
+        color: rgb(176, 205, 233);
+    }
+    .get{
+        font-size: 30px;
+    }
+    i{
+        font-size: 60px;
+        color: rgb(115, 174, 223);
+        margin:15px;
+    }
+    .lolo{
+        background-color:rgb(42, 42, 42) ;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        p{
+            color:gray;
+            font-size: 18px;
+            i{
+                color: gray;
+                font-size: 18px;
+            }
+        }
+    }
+}
